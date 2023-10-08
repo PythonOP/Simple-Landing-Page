@@ -98,7 +98,8 @@ ul{
     background-color: #4fb3d4;
     /* image not available */
     /* background-image: url('./assets/') */
-
+    background-image: url(assets/asset\ 32.png);
+    background-size: 345px;
 
 }
 
@@ -157,6 +158,9 @@ header{
     margin-block: 30px;            /*margin-block gives margin in top and bottom*/
 
 }
+.companies-header{
+    margin-bottom: 30px;
+}
 
 .logos{
     justify-content: space-between;
@@ -165,4 +169,31 @@ header{
 
 .logo{
     height:46px;
+}
+
+/* features section */
+.features-section{
+    padding: 80px var(--padding-inline-section) 0;
+    
+}
+.features-header{
+    text-align:center;
+}
+.features-heading-text{
+    margin-bottom: 20px;
+}
+.features-area{
+    background-image: url(assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:40px;
+    margin-top: 20px;
+}
+.features-card {
+    flex-direction: column;
+    gap:20px;
+    max-width: 30%;
+    text-align: center;
 }
